@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">VoiceTrigger</string>
+    <string name="voice_trigger_service">Voice Trigger Service</string>
+</resources>
