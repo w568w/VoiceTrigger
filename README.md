@@ -7,4 +7,4 @@
 ## 实现原理
 本项目通过 Android 无障碍服务对语音助手唤醒时的页面进行监听，当出现指定关键词时，通过模拟按下 BACK 键打断语音助手的后续过程，并执行自定义的命令。
 
-目前，本项目能够通过 `开/关灯` 关键词控制 [Home Assistant](https://www.home-assistant.io/) 控制下的米家台灯设备，已经能满足我当前的基本需求。
+目前，本项目能够监听 OriginOS 5.0 中的蓝心小 V（原「Jovi 语音」），通过 `开/关灯` 关键词控制 [Home Assistant](https://www.home-assistant.io/) 控制下的米家台灯设备，已经能满足我当前的基本需求。
