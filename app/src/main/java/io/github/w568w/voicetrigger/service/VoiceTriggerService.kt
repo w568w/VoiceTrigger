@@ -28,7 +28,7 @@ class VoiceTriggerService : AccessibilityService() {
 
     private var lastResponseTime: Long = 0
     private var lastRecognizingTime: Long = 0
-    private val client = HttpClient() {
+    private val client = HttpClient {
         install(ContentNegotiation) {
             json()
         }
